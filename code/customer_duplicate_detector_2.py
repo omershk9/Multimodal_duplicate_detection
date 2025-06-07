@@ -305,9 +305,7 @@ def run_duplicate_detection(csv_file_path, confidence_threshold=0.4, eps=0.3, mi
     
     Parameters:
     - csv_file_path: path to your CSV file
-    - confidence_threshold: minimum confidence score to consider as duplicate (0.0-1.0)
-    - eps: DBSCAN epsilon parameter (distance threshold)
-    - min_samples: minimum samples to form a cluster
+
     """
     
     # Load the CSV
@@ -345,7 +343,7 @@ def run_duplicate_detection(csv_file_path, confidence_threshold=0.4, eps=0.3, mi
 
 # Example usage:
 if __name__ == "__main__":
-    # Replace 'your_file.csv' with the path to your CSV file
+
     csv_file_path = "Simulated_CRM_Dataset.csv"
     
     # Run duplicate detection
