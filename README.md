@@ -2,7 +2,7 @@
 Multimodal AI framework to detect duplicates in the absence of PII identifiers
 # Multimodal Duplicate Detection in CRM Data
 
-This repository accompanies our research paper on AI-powered deduplication using semantic, behavioral, and device-level signals.
+This repository accompanies the research paper on AI-powered deduplication using semantic, behavioral, and device-level signals.
 
 ## 📂 Files
 
